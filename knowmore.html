@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Malnad College of Engineering</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e28f8f;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            width: 100%;
+        }
+        .container h1 {
+            text-align: center;
+            color: #ef0808;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+        .content img {
+            max-width: 150px;
+            border-radius: 10px;
+        }
+        .text-content {
+            flex: 1;
+            margin-left: 20px;
+        }
+        .text-content p {
+            margin: 0 0 10px;
+        }
+        .highlight {
+            background-color: yellow;
+            display: inline-block;
+            margin-top: 10px;
+        }
+        .info {
+            margin-top: 20px;
+        }
+        .sidebar {
+            height: 100%;
+            width: 240px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            background-color: #2c3e50;
+            padding-top: 20px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+        }
+        .sidebar a {
+            padding: 15px 20px;
+            text-decoration: none;
+            font-size: 18px;
+            color: #ecf0f1;
+            display: block;
+            transition: color 0.3s ease, background-color 0.3s ease;
+        }
+        .sidebar a:hover {
+            color: #2c3e50;
+            background-color: #ecf0f1;
+        }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a href="dashdemo.php"><i class="fas fa-home"></i> Dashboard</a>
+        <a href="addcustomer.php"><i class="fas fa-user"></i> Add Customer</a>
+        <a href="addfood.php"><i class="fas fa-utensils"></i> Add Food</a>
+        <a href="food section.html"><i class="fas fa-th-large"></i> Food Section</a>
+        <a href="feedback2.php"><i class="fas fa-comments"></i> Know Feedback</a>
+        <a href="knowmore.html"><i class="fas fa-info-circle"></i> Know More</a>
+        <a href="login.php"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    <div class="container">
+        <h1> MALNAD COLLEGE OF ENGINEERING</h1>
+        <div class="content">
+            <img src="Images/college_logo.jpg" alt="Malnad College Logo">
+            <div class="text-content">
+                <p>Malnad College of Engineering established in the year 1960, during the second 5 year plan, as a joint venture of Government of India, Government of Karnataka and the Malnad Technical Education Society, Hassan.</p>
+                <p class="highlight">This canteen has been established inside malnad college with joint venture of college management and canteen management members for students of this college.</p>
+                <div class="info">
+                    <p>Opens at: <strong>8:30 am</strong></p>
+                    <p>Closing: <strong>5 pm</strong></p>
+                    <p>Residence: <strong>Malnad College</strong></p>
+                    <p>Email: <a href="mailto:mcehassan@gmail.com">mcehassan@gmail.com</a></p>
+                    <p>Website: <a href="http://www.mcehassan.in" target="_blank">www.mcehassan.in</a></p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
